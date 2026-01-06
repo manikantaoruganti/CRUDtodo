@@ -12,7 +12,6 @@ function AppContent() {
       </div>
     );
   }
-
   return user ? <TodoList /> : <Auth />;
 }
 
